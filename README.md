@@ -1,6 +1,8 @@
 # Anuradha About Me Portfolio
 
-A simple, professional, one-page personal portfolio website for Anuradha Kumari. The site introduces Anuradha as an AI/ML job seeker with a clean dark theme, subtle gradient background, contact links, and recruiter-friendly copy.
+This is my simple, professional, one-page portfolio website. I built it to introduce myself as an AI/ML job seeker in a clean, recruiter-friendly way.
+
+The site is intentionally focused. It only includes my About Me section, contact links, and footer.
 
 ## Tech Stack
 
@@ -8,8 +10,19 @@ A simple, professional, one-page personal portfolio website for Anuradha Kumari.
 - Vite
 - TypeScript
 - Tailwind CSS
+- uv project setup
 
-## Installation
+## Setup with uv
+
+I added a `pyproject.toml` so I can initialize/sync the project environment with uv:
+
+```bash
+uv sync
+```
+
+Note: this is still a React/Vite frontend project, so Node/npm is required for the website dependencies and build.
+
+## Install Frontend Dependencies
 
 ```bash
 npm install
@@ -50,8 +63,8 @@ The production-ready files will be generated in the `dist/` folder.
 ## Commands
 
 ```bash
+uv sync
 npm install
 npm run dev
 npm run build
 ```
-

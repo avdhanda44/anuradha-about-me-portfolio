@@ -1,0 +1,11 @@
+[project]
+name = "anuradha-about-me-portfolio"
+version = "1.0.0"
+description = "A simple first-person About Me portfolio for Anuradha Kumari."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+package = false
+

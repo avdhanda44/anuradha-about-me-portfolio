@@ -23,7 +23,7 @@ function App() {
         <div className="relative w-full max-w-4xl rounded-3xl border border-white/10 bg-white/[0.06] p-8 shadow-2xl shadow-cyan-950/30 backdrop-blur md:p-12">
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-4 inline-flex rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-sm font-medium text-cyan-200">
-              AI/ML Job Seeker
+              Open to AI/ML Opportunities
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
@@ -38,17 +38,19 @@ function App() {
               <p>
                 I am a Computer Science graduate with hands-on experience in AI
                 engineering, machine learning, NLP, and generative AI
-                applications. I have built practical AI projects including
-                resume parsers, RAG chatbots, interview preparation assistants,
-                job matching tools, and document extraction systems.
+                applications. I like building practical AI tools that solve real
+                problems, including resume parsers, RAG chatbots, interview
+                preparation assistants, job matching tools, and document
+                extraction systems.
               </p>
 
               <p>
-                I enjoy solving real-world problems using Python, machine
-                learning, LLMs, FastAPI, Streamlit, and modern AI tools. I am
-                actively seeking opportunities as an AI Engineer, Machine
-                Learning Engineer, NLP Engineer, Generative AI Engineer, Data
-                Scientist, or Python Developer.
+                I enjoy working with Python, machine learning, LLMs, FastAPI,
+                Streamlit, and modern AI tools. I am actively looking for roles
+                where I can keep learning, contribute to meaningful products,
+                and grow as an AI Engineer, Machine Learning Engineer, NLP
+                Engineer, Generative AI Engineer, Data Scientist, or Python
+                Developer.
               </p>
             </div>
 
@@ -91,7 +93,7 @@ function App() {
       </section>
 
       <footer className="border-t border-white/10 bg-slate-950 px-6 py-6 text-center text-sm text-slate-500">
-        © {new Date().getFullYear()} Anuradha Kumari. Built with React,
+        © {new Date().getFullYear()} Anuradha Kumari. I built this with React,
         TypeScript, Vite, and Tailwind CSS.
       </footer>
     </main>
@@ -99,4 +101,3 @@ function App() {
 }
 
 export default App;
-
